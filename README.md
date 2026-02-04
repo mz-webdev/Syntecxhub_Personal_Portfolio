@@ -37,5 +37,7 @@ Frontend Web Developer
 Intern at SyntexHub
 📬 Contact
 Email: mian.muzammil.dev@gmail.com
-GitHub: GitHub.com/mz-webdev
+
+GitHub: gitHub.com/mz-webdev
+
 LinkedIn: https://www.linkedin.com/in/muhammad-muzamil-58693935a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
