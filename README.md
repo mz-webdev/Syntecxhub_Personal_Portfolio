@@ -1,5 +1,5 @@
 Project by Muhammad Muzamil
-Frontend Web Developer Intern at Syntex Hub
+Frontend Web Developer Intern at SyntecxHub
 
 📌 Project Overview
 This project is a personal portfolio website developed as part of my internship at Syntex Hub. The goal of this project was to design and build a clean, responsive, and professional portfolio to showcase my skills, projects, and experience as a Frontend Web Developer.
