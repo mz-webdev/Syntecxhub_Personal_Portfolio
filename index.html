@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muzamil's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+
+<body>
+
+    <!-- ==top-navbar=== -->
+
+    <nav>
+        <div class="logo">Muzamil.</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <!-- ==hero-section=== -->
+    <header class="hero">
+        <span class="hero-label">Frontend Developer</span>
+        <h1>DESIGN.<br>CODE.<br>DELIVER.</h1>
+        <div class="hero-meta">
+            <p>A passionate <b>Frontend Web Developer</b>. I build responsive, interactive, and user-friendly websites
+                that bring ideas to life on the web.</p>
+            <div class="scroll-indicator">EXPLORE WORK ↓</div>
+        </div>
+    </header>
+
+    <!-- ==about-section=== -->
+    <section class="about" id="about">
+        <div class="about-img-box">
+            <img src="./imgs/m.webp" alt="Professional Portrait">
+        </div>
+        <div class="about-content">
+            <span class="section-label" style="color:#000; margin-bottom: 10px;">The Philosophy</span>
+            <h2>Focused on clean code and bold ideas.</h2>
+            <p>A dedicated <b>Frontend Web Developer</b>. I create responsive, interactive, and visually appealing
+                websites using <b>HTML, CSS, JavaScript</b>, and frameworks like <b>React.js</b>. I enjoy turning
+                designs into functional, user-friendly web experiences.
+
+                I’m passionate about learning new technologies and continuously improving my skills to deliver clean,
+                efficient, and modern web solutions. My goal is to build websites that not only look great but also
+                provide seamless user experiences.</p>
+            <p>I don't just write code; I create digital experiences that perform flawlessly.</p>
+        </div>
+    </section>
+
+    <!-- ==skills-section=== -->
+    <section class="skills-section" id="skills">
+        <span class="section-label" style="color:#000">Expertise</span>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <img src="/imgs/codeicon.webp" alt="" srcset="">
+                <h4>Frontend</h4>
+            </div>
+            <div class="skill-card">
+                <img src="/imgs/github.webp" alt="" srcset="">
+                <h4>Git & GitHub</h4>
+            </div>
+            <div class="skill-card">
+                <img src="/imgs/laptop.webp" alt="" srcset="">
+                <h4>Responsive Layouts</h4>
+            </div>
+            <div class="skill-card">
+                <img src="/imgs/figma.webp" alt="" srcset="">
+                <h4>Figma UI to Code</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==projects-section=== -->
+    <section class="projects" id="projects">
+        <span class="section-label">Latest Work</span>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="p-img-placeholder"><img src="/imgs/project1.webp" alt="" srcset=""></div>
+                <h3>SaudiSwift Transport Company</h3>
+                <p>Fast & Reliable Transport Solutions.</p>
+                <a href="https://saudiswifttransport.com/" target="_blank" class="live-link">LIVE VIEW &rarr;</a>
+            </div>
+            <div class="project-card">
+                <div class="p-img-placeholder"><img src="/imgs/project2.webp" alt="" srcset=""></div>
+                <h3>Cleaning Services – Edinburgh</h3>
+                <p>Residential & Commercial Cleaning Website.</p>
+                <a href="https://cleaningserviceedinburgh.com/" target="_blank" class="live-link">LIVE VIEW &rarr;</a>
+            </div>
+            <div class="project-card">
+                <div class="p-img-placeholder"><img src="/imgs/project3.webp" alt="" srcset=""></div>
+                <h3>Artificial Grass – Boca Raton</h3>
+                <p>Service-Based Business Website.</p>
+                <a href="https://artificalgrassbocaraton.com/" target="_blank" class="live-link">LIVE VIEW &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==contact-section=== -->
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <div>
+                <span class="section-label" style="color:#000">Contact</span>
+                <h2 style="font-size: 3rem; letter-spacing: -2px; line-height: 1;">Let's make something great.</h2>
+                <p style="margin-top: 20px; color: var(--accent);">Email: mian.muzammil.dev@gmail.com</p>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ==footer-section=== -->
+    <footer>
+        <div class="footer-top">
+            <div class="footer-contact">
+                <h3>Muzamil.</h3>
+                <p>Available for freelance projects.</p>
+            </div>
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/muhammad-muzamil-58693935a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    target="_blank">LinkedIn</a>
+
+                <a href="https://www.instagram.com/_muzammil.hussain_?igsh=MW50NXkweGJ1YzZ0Mw=="
+                    target="_blank">Instagram</a>
+                <a href="https://github.com/mz-webdev/" target="_blank">GitHub</a>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2026 M.Muzamil — Personal Portfolio.
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const nav = document.getElementById('navLinks');
+            nav.classList.toggle('active');
+        }
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('navLinks').classList.remove('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
