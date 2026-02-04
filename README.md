@@ -35,6 +35,7 @@ Working on a professional project during an internship
 Muhammad Muzammil
 Frontend Web Developer
 Intern at SyntexHub
+
 📬 Contact
 Email: mian.muzammil.dev@gmail.com
 
