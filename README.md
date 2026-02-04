@@ -31,8 +31,8 @@ Improving UI/UX for better user experience
 Using Git and GitHub for version control
 Working on a professional project during an internship
 
-👨‍💻 Author
-Muhammad Muzammil
+👨‍💻 Author:
+Muhammad Muzamil
 Frontend Web Developer
 Intern at SyntexHub
 
