@@ -1,4 +1,4 @@
-Project by Muhammad Muzammil
+Project by Muhammad Muzamil
 Frontend Web Developer Intern at Syntex Hub
 
 📌 Project Overview
